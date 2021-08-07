@@ -4,10 +4,13 @@
 
 .become-teacher__form {
     padding-left: 70px;
+<<<<<<< HEAD
     @media(max-width:992px){
         padding-left: 0px;
         padding-top: 100px;
     }
+=======
+>>>>>>> 4b76345db575fda0d64a8494b5ff2cd29a2a0a00
 
     position: relative;
 
@@ -18,7 +21,11 @@
         background-image: url(../images/dot-pattern-1-1.png);
         position: absolute;
         bottom: -11%;
+<<<<<<< HEAD
         right:0;
+=======
+        left: 87%;
+>>>>>>> 4b76345db575fda0d64a8494b5ff2cd29a2a0a00
         z-index: -1;
     }
 
@@ -55,10 +62,13 @@
         padding-left: 60px;
         padding-right: 60px;
         padding-top: 60px;
+<<<<<<< HEAD
         @media(max-width:576px){
             padding-left: 15px;
             padding-right: 15px;
         }
+=======
+>>>>>>> 4b76345db575fda0d64a8494b5ff2cd29a2a0a00
         padding-bottom: 60px;
     }
 
@@ -72,9 +82,12 @@
         color: $thm-text-color;
         font-weight: 500;
         padding-left: 40px;
+<<<<<<< HEAD
         @media(max-width:576px){
             padding-left: 20;
         }
+=======
+>>>>>>> 4b76345db575fda0d64a8494b5ff2cd29a2a0a00
         display: block;
         margin-bottom: 10px;
 

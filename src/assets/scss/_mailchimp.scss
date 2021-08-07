@@ -9,7 +9,10 @@
     &__content {
         display: flex;
         align-items: center;
+<<<<<<< HEAD
         flex-wrap: wrap;
+=======
+>>>>>>> 4b76345db575fda0d64a8494b5ff2cd29a2a0a00
     }
 
     &__icon {
@@ -55,6 +58,7 @@
         margin: 0;
         color: #fff;
         font-size: 40px;
+<<<<<<< HEAD
         margin: 20px;
         @media(max-width:768px){
             font-size: 35px;
@@ -62,16 +66,22 @@
         @media(max-width:576px){
             font-size: 30px;
         }
+=======
+>>>>>>> 4b76345db575fda0d64a8494b5ff2cd29a2a0a00
         font-weight: 700;
         letter-spacing: -.04em;
     }
 
     &__form {
         position: relative;
+<<<<<<< HEAD
         display: flex;
         width: 100%;
 
          
+=======
+
+>>>>>>> 4b76345db575fda0d64a8494b5ff2cd29a2a0a00
         input {
             border: none;
             outline: none;
@@ -82,9 +92,12 @@
             color: #81868a;
             font-size: 16px;
             padding-left: 30px;
+<<<<<<< HEAD
             @media (max-width:576px) {
                 padding: 10px;
             }
+=======
+>>>>>>> 4b76345db575fda0d64a8494b5ff2cd29a2a0a00
 
             @include placeholder() {
                 color: #81868a;
@@ -95,8 +108,19 @@
         .thm-btn {
             background-color: $thm-black;
             color: #fff;
+<<<<<<< HEAD
             line-height: 77px;
             padding: 0px 20px;
+=======
+
+            padding: 0;
+            line-height: 77px;
+            width: 159px;
+
+            position: absolute;
+            top: 0;
+            right: 0;
+>>>>>>> 4b76345db575fda0d64a8494b5ff2cd29a2a0a00
 
             &:hover {
                 color: #fff;

@@ -1,5 +1,8 @@
 import React from "react";
+<<<<<<< HEAD
 import { FaFacebook, FaInstagram, FaPinterest, FaTwitter, FaArrowUp } from "react-icons/fa";
+=======
+>>>>>>> 4b76345db575fda0d64a8494b5ff2cd29a2a0a00
 import footer1 from "../assets/images/footer-1-1.png";
 import footer2 from "../assets/images/footer-1-2.png";
 import footer3 from "../assets/images/footer-1-3.png";
@@ -78,7 +81,11 @@ const Footer = () => {
               </div>
               <div className="col-xl-3 col-lg-6 col-sm-12">
                 <div className="footer-widget footer-widget__gallery">
+<<<<<<< HEAD
                   <h2 className="footer-widget__title footer__title__gallery">Gallery</h2>
+=======
+                  <h2 className="footer-widget__title">Gallery</h2>
+>>>>>>> 4b76345db575fda0d64a8494b5ff2cd29a2a0a00
                   <ul className="list-unstyled footer-widget__gallery-list">
                     <li>
                       <a href="#none">
@@ -136,7 +143,11 @@ const Footer = () => {
         <div className="site-footer__bottom">
           <div className="container">
             <p className="site-footer__copy">
+<<<<<<< HEAD
              <span> &copy; Copyright 2020 by </span><a href="#none" className="layerdrops">Layerdrops.com</a>
+=======
+              &copy; Copyright 2020 by <a href="#none">Layerdrops.com</a>
+>>>>>>> 4b76345db575fda0d64a8494b5ff2cd29a2a0a00
             </p>
             <div className="site-footer__social">
               <div
@@ -146,6 +157,7 @@ const Footer = () => {
                 tabIndex={0}
                 className="scroll-to-target site-footer__scroll-top"
               >
+<<<<<<< HEAD
                 <span className="FaArrowUp"><FaArrowUp /></span>
               </div>
 
@@ -160,6 +172,22 @@ const Footer = () => {
               </a>
               <a href="#none">
                 <FaInstagram />
+=======
+                <i className="kipso-icon-top-arrow"></i>
+              </div>
+
+              <a href="#none">
+                <i className="fab fa-twitter"></i>
+              </a>
+              <a href="#none">
+                <i className="fab fa-facebook-square"></i>
+              </a>
+              <a href="#none">
+                <i className="fab fa-pinterest-p"></i>
+              </a>
+              <a href="#none">
+                <i className="fab fa-instagram"></i>
+>>>>>>> 4b76345db575fda0d64a8494b5ff2cd29a2a0a00
               </a>
             </div>
           </div>

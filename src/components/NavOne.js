@@ -148,7 +148,11 @@ const NavOne = () => {
                       <Link to="/news">News Page</Link>
                     </li>
                     <li>
+<<<<<<< HEAD
                       <Link to="/newsdetalis">News Details</Link>
+=======
+                      <Link to="/news-details">News Details</Link>
+>>>>>>> 4b76345db575fda0d64a8494b5ff2cd29a2a0a00
                     </li>
                   </ul>
                 </li>

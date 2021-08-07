@@ -42,10 +42,13 @@
         align-items:center;
         width: 100%;
         flex-wrap: wrap;
+<<<<<<< HEAD
         padding: 20px;
         .clearfix{
             flex-wrap: wrap;
         }
+=======
+>>>>>>> 4b76345db575fda0d64a8494b5ff2cd29a2a0a00
 
         .logo-box {
             width: 40%;
@@ -64,6 +67,17 @@
             display: none;
         }
 
+<<<<<<< HEAD
+=======
+        .right-side-box {
+            // position: absolute;
+            // top: 50%;
+            // -webkit-transform: translateY(-50%);
+            // -ms-transform: translateY(-50%);
+            // transform: translateY(-50%);
+            // right: 15px;
+        }
+>>>>>>> 4b76345db575fda0d64a8494b5ff2cd29a2a0a00
     }
 
     .main-navigation {
@@ -157,7 +171,10 @@
         display: block;
     }
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 4b76345db575fda0d64a8494b5ff2cd29a2a0a00
 .stricked-menu {
     display:none;
     @media(max-width:1200px){
@@ -165,7 +182,10 @@
         width: 100%;
         align-items: center;
         transition: all .3s linear;
+<<<<<<< HEAD
         
+=======
+>>>>>>> 4b76345db575fda0d64a8494b5ff2cd29a2a0a00
         .navigation-box{
             li{
                 display:flex!important;
@@ -313,6 +333,7 @@
 .header__social {
     display: flex;
     align-items: center;
+<<<<<<< HEAD
     margin-bottom: 0px;
     @media(max-width:1200px){
         margin-left: 20px;
@@ -320,6 +341,11 @@
     @media(max-width:992px){
         margin-left: 0px;
     }
+=======
+    @media(max-width:1200px){
+        margin-left: 20px;
+    }
+>>>>>>> 4b76345db575fda0d64a8494b5ff2cd29a2a0a00
 
     a {
         color: $thm-text-color;

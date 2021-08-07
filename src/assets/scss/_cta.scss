@@ -154,13 +154,21 @@
     }
 
     &__image {
+<<<<<<< HEAD
         width: 100%;
         padding-top: 105px;
+=======
+        float: right;
+>>>>>>> 4b76345db575fda0d64a8494b5ff2cd29a2a0a00
     }
 
     &__content {
         padding: 105px 0;
+<<<<<<< HEAD
         // padding-left: 70px;
+=======
+        padding-left: 70px;
+>>>>>>> 4b76345db575fda0d64a8494b5ff2cd29a2a0a00
     }
 
     &__text {
@@ -189,10 +197,21 @@
     &__single {
         flex: 1 1 33.33%;
         max-width: 33.333%;
+<<<<<<< HEAD
+=======
+        padding-left: 45px;
+        padding-right: 45px;
+>>>>>>> 4b76345db575fda0d64a8494b5ff2cd29a2a0a00
 
         &-wrap {
             display: flex;
             flex-wrap: wrap;
+<<<<<<< HEAD
+=======
+            margin-left: -45px;
+            margin-right: -45px;
+            margin-top: -10px;
+>>>>>>> 4b76345db575fda0d64a8494b5ff2cd29a2a0a00
             margin-bottom: 50px;
         }
     }

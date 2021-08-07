@@ -2,8 +2,11 @@ import React, { Component } from "react";
 import CountUp from "react-countup";
 import VisibilitySensor from "react-visibility-sensor";
 import about1 from "../assets/images/about-1-1.jpg";
+<<<<<<< HEAD
 import {GiGiftOfKnowledge} from 'react-icons/gi';
 import {FaBookReader} from 'react-icons/fa';
+=======
+>>>>>>> 4b76345db575fda0d64a8494b5ff2cd29a2a0a00
 export default class AboutTwo extends Component {
   constructor() {
     super();
@@ -39,7 +42,11 @@ export default class AboutTwo extends Component {
                 <div className="about-two__single-wrap">
                   <div className="about-two__single">
                     <div className="about-two__single-icon">
+<<<<<<< HEAD
                       <i><FaBookReader /></i>
+=======
+                      <i className="kipso-icon-professor"></i>
+>>>>>>> 4b76345db575fda0d64a8494b5ff2cd29a2a0a00
                     </div>
                     <div className="about-two__single-content">
                       <p className="about-two__single-text">
@@ -49,7 +56,11 @@ export default class AboutTwo extends Component {
                   </div>
                   <div className="about-two__single">
                     <div className="about-two__single-icon">
+<<<<<<< HEAD
                       <i><GiGiftOfKnowledge /></i>
+=======
+                      <i className="kipso-icon-knowledge"></i>
+>>>>>>> 4b76345db575fda0d64a8494b5ff2cd29a2a0a00
                     </div>
                     <div className="about-two__single-content">
                       <p className="about-two__single-text">
